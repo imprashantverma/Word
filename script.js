@@ -50,7 +50,7 @@ function helper() {
       startbtn.textContent = "NEW";
 
       if(second.textContent == 0 && minute.textContent == 0){
-         second.textContent = 10;
+         second.textContent = 50;
          minute.textContent = 0;
          input.style.display = 'inline';
          set();
