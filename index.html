@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonma Typing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Creating left container that contains input and paragraph -->
+        <div id="left">
+            <!-- output paragraph -->
+                <div id="para-output">
+                     <p id="paragraph"> 
+                        A shepherd boy in a village used to take his herd of sheep across the fields near the forest. He felt this job was very dull and wanted to have some fun. One day while grazing the sheep, he shouted, "Wolf! Wolf! The wolf is carrying away a lamb!" Farmers working in the nearby fields came running for help but didn’t find any wolf. The boy laughed and replied, "It was just fun. There is no wolf here".
+                        The boy played a similar trick repeatedly for many days. After some days, while the shepherd boy was in the field with the herd of sheep, suddenly, a wolf came out from the nearby forest and attacked one of the lambs. The boy was frightened and cried loudly, "Wolf! Wolf! The wolf is carrying a lamb away!" The farmers thought the boy was playing mischief again. So, no one paid attention to him and didn’t come to his help.
+                    </p>
+                    <p id="output"></p>
+                </div>
+            <div id="middle" > 
+                <hr  id="line-left">
+                <p id="middle-text">Type the above text below</p>
+                <hr  id="line-right">
+            </div>
+            <!-- input  view by user -->
+                <div id="para-input">
+                    <input autocomplete="off"; type="text" name="" id="input">
+                </div>
+        </div>
+        <!-- Creating right container that contain timer , pause,close,new  functions -->
+        
+        <div id="right">
+                <label id="close">Close <button  id="closebtn">X</button></label>
+                <br><p id="remaning">Remaning Time</p>
+                <!-- Timer  -->
+                <div id="timer">
+                    <p id="minute">0</p>
+                    <p id="dot">:</p>
+                    <p id="second">50</p>
+                </div>
+                <button id="pause"> PAUSE</button>
+                <button id="new"> START</button>
+        </div>
+
+        </div>
+
+        <script src="script.js"></script>
+    
+</body>
+</html>
